@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #f8f8f8;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+h2 {
+	font-size: 2rem;
+}
+h3 {
+	font-size: 1.75rem;
+}
+h4 {
+	font-size: 1.5rem;
+}
+h5 {
+	font-size: 1.25rem;
+}
+h6 {
+	font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Syne', sans-serif;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  font-size: 1rem;
+  margin: 10px 0;
+  line-height: 1.7em;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.small {
+  font-size: 12px;
+}
+
+.display-1 {
+  font-size: 7rem;
+  font-family: 'Syncopate', sans-serif;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 15px;
+  padding: 12px 23px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  border: none;
+}
+
+.btn-light {
+  background: #fff;
+  color: #000;
+}
+
+.btn-light:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* Navbar */
+.navbar {
+  height: 80px;
+  background: #fff;
+}
+
+.navbar .logo {
+  height: 70px;
+}
+
+.navbar .flag {
+  height: 40px;
+}
+
+.navbar a {
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  color: lightblue;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+/* Showcase */
+.showcase {
+  background: url('https://www.infobae.com/new-resizer/jRGx2K43-H_1VFhJvJNWs9BzfHQ=/arc-anglerfish-arc2-prod-infobae/public/TSO2FKTOJJEARCYYAJALCOLX6Y.jpg') no-repeat center center/cover;
+  color: #fff;
+  padding: 50px 0;
+  margin-bottom: -50px;
+}
+
+.showcase .container {
+  height: 600px;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* Countdown */
+.countdown-box {
+  background: #fff;
+  border-radius: 10px;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.countdown-box-title {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.countdown-box-title p {
+  margin-top: -15px;
+}
+
+.countdown-box-clock {
+  flex: 1;
+  padding: 10px 0 20px 0;
+  text-align: center;
+}
+
+.countdown-box-clock ul {
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+.countdown-box-clock ul li {
+  padding: 10px;
+}
+
+#demo {
+  font-size: 2rem;
+}
+
+/* Features */
+.features {
+  background: #f8f8f8;
+  
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.features .container {
+  display: flex;
+  gap: 20px;
+}
+
+.features-box {
+  flex: 1;
+  color: #fff;
+  padding: 20px;
+  height: 300px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.features-box h2 {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.athletics {
+  background: url('/images/features-athletics.png') no-repeat center center/cover;
+}
+.boxing {
+  background: url('/images/features-boxing.png') no-repeat center center/cover;
+}
+.taekwondo {
+  background: url('/images/features-taekwondo.png') no-repeat center center/cover;
+}
+.diving {
+  background: url('/images/features-diving.png') no-repeat center center/cover;
+}
+
+/* About */
+.about {
+  background: url('/images/background-about.png') no-repeat center center/cover;
+  color: #fff;
+  padding: 80px 0;
+}
+
+.about .container {
+  display: flex;
+  gap: 20px;
+}
+
+.about-content {
+  flex: 3;
+}
+
+.about-image {
+  flex: 2;
+  padding-top: 40px;
+}
+
+/* Team */
+.team {
+  padding: 80px 0;
+}
+
+.team table {
+  background: #fff;
+  width: 100%;
+}
+
+.team th {
+  background: #194b5f;
+  color: #fff;
+}
+
+.team th h5 {
+  padding-top: 15px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.team td {
+  padding: 20px;
+  border-bottom: 1px dotted #c4c4c4;
+}
+
+/* Footer */
+.mainfooter {
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}

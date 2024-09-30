@@ -1,0 +1,100 @@
+/* Utility Classes */
+.display-1 {
+  font-size: 3rem;
+}
+
+/* Navbar */
+.navbar {
+  height: 100%;
+  padding: 20px 0;
+}
+
+.navbar .logo {
+  height: 50px;
+}
+
+.navbar .flag {
+  height: 20px;
+}
+
+.navbar .container {
+  flex-direction: column;
+}
+
+.navbar ul li {
+  margin-left: 0;
+  padding: 15px;
+}
+
+/* Showcase */
+.showcase .container {
+  height: 300px;
+}
+
+/* Countdown */
+.countdown-box {
+  width: 100%;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.countdown-box-clock {
+  padding: 0;
+}
+
+/* Features */
+.features {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.features .container {
+  flex-direction: column;
+}
+
+/* About */
+.about {
+  padding: 50px 0;
+}
+
+.about .container {
+  flex-direction: column;
+}
+
+.about-image {
+  padding-top: 0;
+}
+
+/* Team */
+.team {
+  padding: 50px 0;
+}
+
+.team table {
+  background: #fff;
+  width: 100%;
+}
+
+.team th {
+  background: #194b5f;
+  color: #fff;
+}
+
+.team th h5 {
+  padding-top: 15px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.team td {
+  padding: 20px;
+  border-bottom: 1px dotted #c4c4c4;
+}
+
+/* Footer */
+.mainfooter {
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
